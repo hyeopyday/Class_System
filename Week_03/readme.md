@@ -25,13 +25,13 @@
 
 ## ?와 *의 차이점
 
- ```ls /usr/bin/l?``` 와 ```ls /sur/bin/l*```을 명령했을 때 보이는 디렉토리가 다르다
+* ```ls /usr/bin/l?``` 와 ```ls /sur/bin/l*```을 명령했을 때 보이는 디렉토리가 다르다
 
  - ?는 임의의 한 글자를 의미
  - *는 0개 이상의 모든 문자를 의미
 
 * ```ls /usr/bin/l?```의 경우
-   ```/usr/bin/ld  /usr/bin/ln  /usr/bin/ls```
+  -   ```/usr/bin/ld  /usr/bin/ln  /usr/bin/ls```
 
 * ```ls /sur/bin/l*```의 경우
 
@@ -53,7 +53,7 @@
 /usr/bin/ld.bfd                      /usr/bin/locale        /usr/bin/lslocks      /usr/bin/lzma
 /usr/bin/ld.gold                     /usr/bin/locale-check  /usr/bin/lslogins     /usr/bin/lzmainfo
 /usr/bin/ldd                         /usr/bin/localectl     /usr/bin/lsmem        /usr/bin/lzmore 
-```
+``` 
 
 ---
 
