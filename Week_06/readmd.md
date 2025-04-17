@@ -59,14 +59,14 @@ var4=$[$var1 * ($var2 - $var3)]
 echo "The final result is $var4"
 ```
 
-# 나누기
+### 나누기
 ```bash
 var1=100
 var2=45
 var3=$[$var1 / $var2]
 echo "The final result is $var3"
 ```
-# 덧셈
+### 덧셈
 ```bash
 var1=10
 var2=30
@@ -104,7 +104,7 @@ guest="Jessica"
 echo "$guest checked in $days days ago"
 ```
 ---
-🛠️ 파일 실행 및 관리
+## 🛠️ 파일 실행 및 관리
 ```bash
 vi $1             # 스크립트 파일 열기
 chmod u+x $1      # 실행 권한 부여
